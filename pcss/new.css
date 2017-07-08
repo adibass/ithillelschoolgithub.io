@@ -1,0 +1,22 @@
+h2#imPgTitle {float: left; }
+#imBreadcrumb { float: left; }
+@media (min-width: 960px) {
+	#imPgTitle { width: 766px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 766px; margin-left: 6px; margin-right: 6px; }
+	
+}
+@media  (max-width: 959px) and (min-width: 720px) {
+	#imPgTitle { width: 688px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 688px; margin-left: 6px; margin-right: 6px; }
+	
+}
+@media  (max-width: 719px) and (min-width: 480px) {
+	#imPgTitle { width: 450px; margin-left: 6px; margin-right: 6px; }
+	#imBreadcrumb { width: 450px; margin-left: 6px; margin-right: 6px; }
+	
+}
+@media  (max-width: 479px) {
+	#imPgTitle { width: 100%; margin-left: 0px; margin-right: 0px; }
+	#imBreadcrumb { width: 100%; margin-left: 0px; margin-right: 0px; }
+	
+}
